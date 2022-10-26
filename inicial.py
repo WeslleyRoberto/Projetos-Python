@@ -12,5 +12,6 @@ while b >= 10:
     b = int(input("Informe um número válido"))
     continue
 
-print(f"A multiplicação entre os números informados é: {a * b}")
+r = a * b
 
+print(f"A multiplicação entre os números informados é: {r}")
