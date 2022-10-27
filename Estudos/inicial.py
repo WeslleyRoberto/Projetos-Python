@@ -1,6 +1,3 @@
-import pandas
-
-
 a = int(input("informe um número maior que 10: "))
 
 while a <= 10:
