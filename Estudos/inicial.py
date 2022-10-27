@@ -9,7 +9,7 @@ b = int(input("Agora informe um número multiplicador menor que 10: "))
 
 while b >= 10:
     print("Número informado é maior que 10!!!")
-    b = int(input("Informe um número válido"))
+    b = int(input("Informe um número válido: "))
     continue
 
 r = a * b
