@@ -7,10 +7,6 @@ print('O objetivo é advinhar um número entre 1 e 100 esolhido aleatório pelo 
 time.sleep(3)
 print('Você terá um número de chances de acordo com a dificuldade escolhida:\n')
 time.sleep(3)
-print('1 - Fácil (10 tentativas)\n'
-      '2 - Médio (5 tentativas)\n'
-      '3 - Difícil (3 tentativas)\n')
-time.sleep(3)
 print('Preparado???\n')
 time.sleep(1),
 print('Vamos começar...')
@@ -27,6 +23,9 @@ while recomecar == 'sim':
     chutes.clear()
 
     try:
+        print(  '1 - Fácil (10 tentativas)\n'
+                '2 - Médio (5 tentativas)\n'
+                '3 - Difícil (3 tentativas)\n')
         nivel = int(input('\nEscolha a dificudade: '))
     except ValueError:
         print('Não entendi. Informe uma dificuldade válida: ')
