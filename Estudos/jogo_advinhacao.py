@@ -21,6 +21,7 @@ chutes = []
 
 while recomecar == 'sim':
     chutes.clear()
+    tentativas = 0
 
     try:
         print(  '1 - Fácil (10 tentativas)\n'
@@ -73,7 +74,7 @@ while recomecar == 'sim':
 
     recomecar = input('\nDeseja jogar novamente? (sim/não): ')
 
-    while recomecar == '':
+    while recomecar != 'sim' and recomecar != 'não':
         print('Não entendi.')
         recomecar = input('\nDeseja jogar novamente? (sim/não): ')
         continue
