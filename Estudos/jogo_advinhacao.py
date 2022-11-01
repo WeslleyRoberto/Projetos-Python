@@ -68,7 +68,7 @@ while recomecar == 'sim':
 
     print('\nFIM DO JOGO!!!')
 
-    if tentativas == chances:
+    if tentativas == chances and chutes != n_secreto:
         print(f'O número secreto era {n_secreto}')
         print(f'Os seus palpites sem sucesso foram: {chutes}')
 
